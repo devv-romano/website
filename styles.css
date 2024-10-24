@@ -1,23 +1,24 @@
 ﻿body {
     background: #070707;
-    color: #cccccc;
+    color: #cacaca;
     margin: 0;
     font-family: Courier New, Courier, monospace;
     display: block;
 }
 
 .content {
-    width: 40em;
+    max-width: 40em;
     margin: auto;
+    padding: .25em;
     a {
-        color: #23797c
+        color: #2c9b9f
     }
     h1 {
         text-align: center;
         font-size: 2em;
     }
     h2 {
-        border-bottom: 2px solid #23797c;
+        border-bottom: 2px solid #2c9b9f;
     }
     h3 {
         margin-bottom: 0;
